@@ -1,0 +1,6 @@
+site:
+  build: customimg
+  ports:
+   - 80:80
+  volumes:
+   - $PWD/site:/usr/local/apache2/htdocs/test:ro

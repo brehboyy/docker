@@ -1,0 +1,6 @@
+site:
+  build: customimg
+  ports:
+    - 4534:4534
+  volumes:
+    - $PWD/armagetron:/var/lib/armagetron
